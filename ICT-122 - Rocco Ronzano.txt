@@ -230,6 +230,59 @@ Exercice 13)
 		
 
 Exercice 14)
+	a. [[ "$chaine1" == "dhcp" ]]
+	b. 
+		chaine=""
+		if [[ -Z "$chaine" ]]
+		echo ""
+		echo ""
+	c. 
+		
+	d. -gt 
+	e. -le
+	f. 
+		folder="/etc/"
+		[[ -d "$folder" ]]
+	g. 
+		file="/bin/bash"
+		[[ -X "$file" ]]
+	h. 
+		file="/bin/bash"
+		[[ -s "$file" ]]
+	i. 
+		file1=""
+		file2=""
+		[[ "$file1" -nt "$file2" ]]
+	j. 
+		
+
+Exercice 15)
 	a. 
 	b. 
 	c. 
+
+Exercice 16)
+	a. 
+	b. 
+	c. 
+
+Exercice 17)
+        a.
+        b.
+        c.
+
+Exercice 18)
+        a.
+        b.
+        c.
+
+Exercice 19)
+        a.
+        b.
+        c.
+
+Exercice 10)
+        a.
+        b.
+        c.
+

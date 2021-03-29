@@ -1,0 +1,13 @@
+#!/bin/bash
+# ###
+# 29.03.2021
+# Rocco Ronzano
+# Education - Apprentissage du shell script
+# 
+# ###
+echo "Début du script"
+
+echo "Fin du script"
+# ###
+# end of shell script
+# ###
