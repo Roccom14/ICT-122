@@ -2,7 +2,7 @@
 # ###
 # date
 # Rocco Ronzano
-# utilisation
+# Education - Apprentissage du shell script
 # fonction du shell script
 # ###
 echo "Le script a débuté..."
