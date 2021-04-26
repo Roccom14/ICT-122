@@ -260,6 +260,8 @@
 	a.
 	b.
 	c.
+	d.
+	e.
 
 # Exercice 16.
 	a.
