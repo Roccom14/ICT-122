@@ -274,9 +274,11 @@
   	c.
 
 # Exercice 18.
-  	a.
-  	b.
-  	c.
+  	a. echo ?o*
+  	b. echo T??
+  	c. echo [[:lower:]]*
+	d. echo !(*a*)
+	e. echo +([[:upper:]])s
 
 # Exercice 19.
   	a.
