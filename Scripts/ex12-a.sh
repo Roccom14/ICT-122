@@ -5,11 +5,17 @@
 # Education
 # Afichage de 10 premières variables positionnelles
 # ###
-echo "Le script à débuté..."
 echo ""
+echo "----- Début du script -----"
+echo ""
+echo ""
+
 echo "Les dix variables positionnelles sont : 1-> $1, 2-> $2, 3-> $3, 4-> $4, 5-> $5, 6-> $6, 7-> $7, 8-> $8, 9-> $9"
+
 echo ""
-echo "Le script s'est terminé !"
+echo ""
+echo "----- Fin du script -----"
+echo ""
 # ###
 # end of shell script
 # ###

@@ -5,11 +5,17 @@
 # utilisation
 # fonction du shell script
 # ###
-echo "Le script a débuté..."
 echo ""
+echo "----- Début du script -----"
+echo ""
+echo ""
+
 echo $(( RANDOM%51 ))
+
 echo ""
-echo "Le sript a prit fin"
+echo ""
+echo "----- Fin du script -----"
+echo ""
 # ###
 # end of shell script
 # ###

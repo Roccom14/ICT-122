@@ -7,7 +7,7 @@
 # ###
 echo ""
 echo "----- Début du script -----"
-echo "" 
+echo ""
 echo ""
 
 read -p "Entrez un nombre à tester : " var
@@ -36,6 +36,7 @@ echo "Cool ! Le nombre $var est un nombre premier :)"
 echo ""
 echo ""
 echo "----- Fin du script -----"
+echo ""
 # ###
 # end of shell script
 # ###

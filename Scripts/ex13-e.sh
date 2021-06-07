@@ -5,7 +5,9 @@
 # Education - Apprentissage du ShellScript
 # Réalisez un shell script qui calcul la surface d'un cercle en fonction de son diamètre.
 # ###
-echo "Le script a débuté..."
+echo ""
+echo "----- Début du script -----"
+echo ""
 echo ""
 
 read -p "Entrez le diamètre du cercle [cm]: " diametre
@@ -17,7 +19,9 @@ surface=$( echo "scale=3;(($diametre/2)^2)*$pi" | bc)
 echo -n "La surafce du cercle est de : " $surface "cm²."
 
 echo ""
-echo "Le sript a prit fin"
+echo ""
+echo "----- Fin du script -----"
+echo ""
 # ###
 # end of shell script
 # ###

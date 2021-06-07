@@ -5,11 +5,17 @@
 # Education - Apprentissage du shell script
 # fonction du shell script
 # ###
-echo "Le script a débuté..."
 echo ""
-cat $1 > $2
+echo "----- Début du script -----"
 echo ""
-echo "Le sript a prit fin"
+echo ""
+
+
+
+echo ""
+echo ""
+echo "----- Fin du script -----"
+echo ""
 # ###
 # end of shell script
 # ###

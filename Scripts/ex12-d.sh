@@ -1,21 +1,16 @@
 #!/bin/bash
 # ###
-# 26.04.2021
+# date
 # Rocco Ronzano
 # Education - Apprentissage du shell script
-# Utiliser une boucle qui permet l'affichage de tous les paramètres positionnels.
+# shell script qui permet de copier des fichiers sans utiliser la commande cp.
 # ###
 echo ""
 echo "----- Début du script -----"
 echo ""
 echo ""
 
-i=1
-for param in "$@"
-do
-    echo "\$$i: $param"
-    (( i++ ))
-done
+cat $1 > $2
 
 echo ""
 echo ""

@@ -5,8 +5,11 @@
 # Education - Apprentissage du shell script
 # shell script qui va demander de deviner un nombre défini aléatoirement de 0 à 100.
 # ###
-echo "Début du script"
 echo ""
+echo "----- Début du script -----"
+echo ""
+echo ""
+
 randomNumber=$((RANDOM % 101))
 
 echo "Saisissez un nombre compris entre 0 et 100"
@@ -27,8 +30,11 @@ do
 done
 
 echo "Bravo ! Vous avez trouvé le nombre inconnu : $randomNumber en $i coups."
+
 echo ""
-echo "Fin du script"
+echo ""
+echo "----- Fin du script -----"
+echo ""
 # ###
 # end of shell script
 # ###

@@ -5,7 +5,11 @@
 # Education - Apprentissage du shell script
 # Ce script affiche des infos sur le dossier passé en paramètre.
 # ###
-echo "Début du script"
+echo ""
+echo "----- Début du script -----"
+echo ""
+echo ""
+
 # file
 if [[ "$1" == "" ]]
 then
@@ -24,7 +28,11 @@ then
 else
     echo $(basename "$file")" est un autre type de fichier, sa taille est de "$(du -hs "$file" | cut -f 1)
 fi
-echo "Fin du script"
+
+echo ""
+echo ""
+echo "----- Fin du script -----"
+echo ""
 # ###
 # end of shell script
 # ###

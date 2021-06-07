@@ -2,14 +2,20 @@
 # ###
 # 15 mars 2021
 # Rocco Ronzano
-# education
+# Education
 # Redonne le nom du script lui-même
 # ###
-echo "Le script a débuté..."
 echo ""
+echo "----- Début du script -----"
+echo ""
+echo ""
+
 echo "Le nom du fichier est : " $0
+
 echo ""
-echo "Le sript a prit fin"
+echo ""
+echo "----- Fin du script -----"
+echo ""
 # ###
 # end of shell script
 # ###
